@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Caveat:wght@700&family=Edu+NSW+ACT+Foundation:wght@700&family=Figtree&family=Jost:wght@700&family=Raleway:wght@300&family=Rubik:wght@600&family=Ubuntu&family=Work+Sans:wght@500;800&display=swap');
+body {
+    background-color: #131419;
+    font-family: 'Work Sans', sans-serif;
+}
+.title{
+    font-weight: 800;
+}
+.movie-title{
+    font-weight: 500;
+}
+.react-player {
+    @apply !w-[340px] !h-[200px]
+}
+  .legend{
+    @apply !h-fit !text-start !bg-transparent !text-gray-300 !opacity-100 !mb-4 md:mb-10
+  }
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+    height: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: black;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #272727;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #131419;
+}
